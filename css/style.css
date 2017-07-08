@@ -1,0 +1,40 @@
+/*MENU*/
+
+.menu {
+	font-family: 'Montserrat', Helvetica,sans-serif;
+	background-color: rgba(45, 45, 48, 0.9);
+	border: none;
+	letter-spacing: 4px;
+}
+.menu a {
+	color: #d5d5d5 !important;
+}
+.menu .navbar-toggle {
+	border: none;
+}
+.menu .navbar-nav>li>a {
+	font-size: 11px !important;
+}
+.menu .navbar-nav li a:hover,
+.menu .navbar-nav li a:active {
+  color: #fff !important;
+}
+.menu .navbar-nav li a:active {
+  background-color: rgba(45, 45, 48, 1) !important;
+}
+.menu .open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+.menu .dropdown-menu {
+	opacity: 0.9;
+}
+.menu .dropdown-menu li a {
+	display: block;
+  padding: 3px 20px;
+  font-size: 14px;
+  color: #000 !important;
+}
+.menu .dropdown-menu li a:hover {
+	background-color: red;
+}
