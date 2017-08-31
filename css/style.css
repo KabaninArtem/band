@@ -1,82 +1,190 @@
 .carousel-block .carousel-inner h1,
 header h1 {
-	padding: 10px 0 30px;
-  font-size: 20px;
-  letter-spacing: 10px;
+    padding: 10px 0 30px;
+    font-size: 20px;
+    letter-spacing: 10px;
 }
+
 /*MENU*/
 
 .menu {
-	font-family: 'Montserrat', Helvetica,sans-serif;
-	background-color: rgba(45, 45, 48, 0.9);
-	border: none;
-	letter-spacing: 4px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: rgba(45, 45, 48, 0.9);
+    border: none;
+    letter-spacing: 4px;
 }
+
 .menu a {
-	color: #d5d5d5 !important;
+    color: #d5d5d5 !important;
 }
+
 .menu .navbar-toggle {
-	border: none;
+    border: none;
 }
-.menu .navbar-nav>li>a {
-	font-size: 11px !important;
+
+.menu .navbar-nav > li > a {
+    font-size: 11px !important;
 }
+
 .menu .navbar-nav li a:hover,
 .menu .navbar-nav li.active a {
-  color: #fff !important;
+    color: #fff !important;
 }
+
 .menu .navbar-nav li.active a {
-	background-color: #29292c !important;
+    background-color: #29292c !important;
 }
+
 .menu .open .dropdown-toggle {
-  color: #fff;
-  background-color: #555 !important;
+    color: #fff;
+    background-color: #555 !important;
 }
+
 .menu .dropdown-menu {
-	opacity: 0.9;
+    opacity: 0.9;
 }
+
 .menu .dropdown-menu li a {
-	display: block;
-  padding: 3px 20px;
-  font-size: 14px;
-  color: #000 !important;
+    display: block;
+    padding: 3px 20px;
+    font-size: 14px;
+    color: #000 !important;
 }
+
 .menu .dropdown-menu li a:hover {
-	background-color: red;
+    background-color: red;
 }
 
 /*CAROUSEL-BLOCK*/
 
-.carousel-block .carousel-inner  img {
-	width: 100%;
+.carousel-block .carousel-inner img {
+    width: 100%;
 }
 
 /*HEADER*/
 
 header.container {
-	padding: 80px 120px;
+    padding: 80px 120px;
 }
+
 header p {
-	font-family: 'Lato', Arial, sans-serif;
-  color: #777;
+    font-family: 'Lato', Arial, sans-serif;
+    color: #777;
 }
+
 header > div {
-	margin-top: 50px;
+    margin-top: 50px;
 }
+
 header > p {
-	font-weight: 400; 
-	font-size: 15px;
-	line-height: 1.8;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
 }
+
 header .bandmember {
-	display: block;
-	margin: 50px auto;
-	width: 80%;
-	height: 80%;
-	box-sizing: border-box;
-	border: 10px solid transparent;
-	opacity: 0.7;
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    border: 10px solid transparent;
+    opacity: 0.7;
 }
+
 header .bandmember:hover {
-	border-color: #f1f1f1;
+    border-color: #f1f1f1;
 }
+
+/*WRAPPER-TOUR*/
+
+.wrapper-tour {
+    padding: 50px 0;
+    background-color: #2d2d30;
+}
+
+.wrapper-tour .tour-block {
+    padding: 80px 120px;
+    color: #bdbdbd;
+}
+
+.wrapper-tour .tour-block h2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.wrapper-tour .tour-block .list-group {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.wrapper-tour .tour-block .list-group .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.wrapper-tour .tour-block .list-group .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.wrapper-tour .tour-block .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.wrapper-tour .tour-block .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.wrapper-tour .tour-block .thumbnail .btn,
+.wrapper-tour .modal .modal-body .btn,
+.wrapper-tour .modal .modal-footer .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0;
+    transition: 0.2s;
+}
+
+.wrapper-tour .tour-block .thumbnail .btn:hover,
+.wrapper-tour .tour-block .thumbnail .btn:focus,
+.wrapper-tour .modal .modal-body .btn:hover,
+.wrapper-tour .modal .modal-body .btn:focus,
+.wrapper-tour .modal .modal-footer .btn:hover,
+.wrapper-tour .modal .modal-footer .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+/*MODAL*/
+
+.wrapper-tour .modal-header,
+.wrapper-tour .modal-body {
+    padding: 40px 50px;
+}
+
+.wrapper-tour .modal-header,
+.wrapper-tour .modal-header h4,
+.wrapper-tour .modal-header .close {
+    font-size: 30px;
+    letter-spacing: 10px;
+    background-color: #2d2d30;
+    color: white;
+}
+
+.wrapper-tour .modal-body,
+.wrapper-tour .modal-footer {
+    color: #bdbdbd;
+}
+
+.wrapper-tour .modal-footer .btn {
+    float: left;
+}
+
