@@ -144,7 +144,8 @@ header .bandmember:hover {
 
 .wrapper-tour .tour-block .thumbnail .btn,
 .wrapper-tour .modal .modal-body .btn,
-.wrapper-tour .modal .modal-footer .btn {
+.wrapper-tour .modal .modal-footer .btn,
+.contact-block .btn {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
@@ -157,7 +158,9 @@ header .bandmember:hover {
 .wrapper-tour .modal .modal-body .btn:hover,
 .wrapper-tour .modal .modal-body .btn:focus,
 .wrapper-tour .modal .modal-footer .btn:hover,
-.wrapper-tour .modal .modal-footer .btn:focus {
+.wrapper-tour .modal .modal-footer .btn:focus,
+.contact-block .btn:hover,
+.contact-block .btn:focus {
     border: 1px solid #333;
     background-color: #fff;
     color: #000;
@@ -186,5 +189,32 @@ header .bandmember:hover {
 
 .wrapper-tour .modal-footer .btn {
     float: left;
+}
+
+/*CONTACT-BLOCK*/
+
+.contact-block {
+    padding: 50px 120px;
+}
+
+.contact-block h3 {
+    padding-bottom: 15px;
+    font-family: 'Lato', Arial, sans-serif;
+    letter-spacing: 10px;
+}
+
+.contact-block p {
+    font-size: 15px;
+    color: #777;
+}
+
+.contact-block input,
+.contact-block textarea {
+    border-radius: 0;
+}
+
+.contact-block textarea {
+    margin-bottom: 30px;
+    resize: none;
 }
 
