@@ -1,3 +1,10 @@
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white */
+}
+
 .carousel-block .carousel-inner h1,
 header h1 {
     padding: 10px 0 30px;
@@ -52,7 +59,7 @@ header h1 {
 }
 
 .menu .dropdown-menu li a:hover {
-    background-color: red;
+    background-color: red !important;
 }
 
 /*CAROUSEL-BLOCK*/
@@ -199,6 +206,7 @@ header .bandmember:hover {
 
 .contact-block h3 {
     padding-bottom: 15px;
+    font-size: 20px;
     font-family: 'Lato', Arial, sans-serif;
     letter-spacing: 10px;
 }
@@ -218,3 +226,40 @@ header .bandmember:hover {
     resize: none;
 }
 
+.contact-block .blog {
+    padding-bottom: 50px;
+}
+
+.contact-block .blog .nav-tabs li a,
+.contact-block .blog .tab-content h2 {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #777;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #555;
+}
+
+/*FOOTER*/
+
+footer {
+    padding-bottom: 30px;
+    color: #f5f5f5;
+    background-color: #2d2d30;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+footer .up-arrow {
+    display: block;
+    padding: 30px;
+}

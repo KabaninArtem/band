@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <script src="js/script.js" defer></script>
     <script src="js/jquery-3.2.1.min.js" defer></script>
+    <script src="js/script.js" defer></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" defer></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1gIQFonNrMqmj4rG7gf1Rp_0uh75XVxA&callback=myMap"
             defer></script>
@@ -256,7 +256,39 @@
             <button class="btn pull-right" type="submit">Send</button>
         </div>
     </div>
+    <div class="blog">
+        <h3 class="text-center text-capitalize">From the blog</h3>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+            <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+            <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="home">
+                <h2>Mike Ross, Manager</h2>
+                <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+            </div>
+            <div class="tab-pane fade" id="menu1">
+                <h2>Chandler Bing, Guitarist</h2>
+                <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+            </div>
+            <div class="tab-pane fade" id="menu2">
+                <h2>Peter Griffin, Bass player</h2>
+                <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
+<!-- Add Google Maps -->
+<div id="googleMap"></div>
+
+<footer class="container-fluid">
+    <a class="up-arrow text-center" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p class="text-center">Bootstrap Theme Made By <a href="https://github.com/KabaninArtem" data-toggle="tooltip"
+                                                      title="Visit Artem Kabanin on GitHub">Artem Kabanin</a></p>
+</footer>
 </body>
 </html>
